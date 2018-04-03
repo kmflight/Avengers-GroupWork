@@ -1,9 +1,6 @@
 package com.sg.dao;
 
-import com.sg.dto.Organization;
-import com.sg.dto.Person;
-import com.sg.dto.Power;
-import com.sg.dto.Sighting;
+import com.sg.dto.*;
 
 import java.util.List;
 
@@ -24,4 +21,6 @@ public interface PersonDao {
     List<Person> retrieveAllPersonsByPower(Power power, int limit, int offset);
 
     List<Person> retrieveAllPersonsBySighting(Sighting sighting, int limit, int offset);
+
+    List<Person> retrieveAllPersonsByLocation(Location location, int limit, int offset);
 }

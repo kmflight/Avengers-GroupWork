@@ -3,8 +3,8 @@ package com.sg.dto;
 public class PersonSighting {
 
     private Long id;
-    private Long personId;
-    private Long sightingId;
+    private Person person;
+    private Sighting sighting;
 
     public Long getId() {
         return id;
@@ -14,19 +14,19 @@ public class PersonSighting {
         this.id = id;
     }
 
-    public Long getPersonId() {
-        return personId;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setPersonId(Long personId) {
-        this.personId = personId;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
-    public Long getSightingId() {
-        return sightingId;
+    public Sighting getSighting() {
+        return sighting;
     }
 
-    public void setSightingId(Long sightingId) {
-        this.sightingId = sightingId;
+    public void setSighting(Sighting sighting) {
+        this.sighting = sighting;
     }
 }

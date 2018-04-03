@@ -3,8 +3,8 @@ package com.sg.dto;
 public class PersonPower {
 
     private Long id;
-    private Long personId;
-    private Long powerId;
+    private Person person;
+    private Power power;
 
     public Long getId() {
         return id;
@@ -14,19 +14,19 @@ public class PersonPower {
         this.id = id;
     }
 
-    public Long getPersonId() {
-        return personId;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setPersonId(Long personId) {
-        this.personId = personId;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
-    public Long getPowerId() {
-        return powerId;
+    public Power getPower() {
+        return power;
     }
 
-    public void setPowerId(Long powerId) {
-        this.powerId = powerId;
+    public void setPower(Power power) {
+        this.power = power;
     }
 }

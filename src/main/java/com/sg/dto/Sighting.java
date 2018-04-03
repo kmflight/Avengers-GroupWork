@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Sighting {
 
     private Long id;
-    private Long locationId;
+    private Location location;
     private LocalDate sightingDate;
     private String description;
 
@@ -17,12 +17,12 @@ public class Sighting {
         this.id = id;
     }
 
-    public Long getLocationId() {
-        return locationId;
+    public Location getLocation() {
+        return location;
     }
 
-    public void setLocationId(Long locationId) {
-        this.locationId = locationId;
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
     public LocalDate getSightingDate() {

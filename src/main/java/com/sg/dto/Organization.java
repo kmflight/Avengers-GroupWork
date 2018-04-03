@@ -5,7 +5,7 @@ public class Organization {
     private Long id;
     private String name;
     private String description;
-    private Long locationId;
+    private Location location;
 
     public Long getId() {
         return id;
@@ -31,11 +31,11 @@ public class Organization {
         this.description = description;
     }
 
-    public Long getLocationId() {
-        return locationId;
+    public Location getLocation() {
+        return location;
     }
 
-    public void setLocationId(Long locationId) {
-        this.locationId = locationId;
+    public void setLocation(Location location) {
+        this.location = location;
     }
 }

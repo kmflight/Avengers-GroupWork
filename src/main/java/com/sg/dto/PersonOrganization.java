@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class PersonOrganization {
 
     private Long id;
-    private Long personId;
-    private Long organizationId;
+    private Person person;
+    private Organization organization;
     private LocalDate startDate;
     private LocalDate endDate;
 
@@ -18,20 +18,20 @@ public class PersonOrganization {
         this.id = id;
     }
 
-    public Long getPersonId() {
-        return personId;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setPersonId(Long personId) {
-        this.personId = personId;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
-    public Long getOrganizationId() {
-        return organizationId;
+    public Organization getOrganization() {
+        return organization;
     }
 
-    public void setOrganizationId(Long organizationId) {
-        this.organizationId = organizationId;
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
     }
 
     public LocalDate getStartDate() {
