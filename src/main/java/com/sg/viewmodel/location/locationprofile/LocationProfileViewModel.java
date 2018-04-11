@@ -1,6 +1,6 @@
 package com.sg.viewmodel.location.locationprofile;
 
-public class LocationViewModel {
+public class LocationProfileViewModel {
 
     private Long id;
     private Double latitude;
