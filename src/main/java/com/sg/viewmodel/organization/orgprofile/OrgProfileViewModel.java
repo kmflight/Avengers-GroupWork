@@ -3,6 +3,7 @@ package com.sg.viewmodel.organization.orgprofile;
 public class OrgProfileViewModel {
 
     private Long id;
+    private String name;
     private Long locationId;
     private String locationName;
     private String description;
@@ -13,6 +14,14 @@ public class OrgProfileViewModel {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Long getLocationId() {
