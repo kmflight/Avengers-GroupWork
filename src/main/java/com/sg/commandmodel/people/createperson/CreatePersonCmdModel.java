@@ -1,5 +1,7 @@
 package com.sg.commandmodel.people.createperson;
 
+import java.time.LocalDate;
+
 public class CreatePersonCmdModel {
 
     private String name;
@@ -7,6 +9,8 @@ public class CreatePersonCmdModel {
     private String type;
     private Long[] orgIds;
     private Long[] powerIds;
+    private LocalDate startDate;
+    private LocalDate endDate;
     private Long imageId;
 
     public String getName() {
@@ -47,6 +51,22 @@ public class CreatePersonCmdModel {
 
     public void setPowerIds(Long[] powerIds) {
         this.powerIds = powerIds;
+    }
+
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(LocalDate startDate) {
+        this.startDate = startDate;
+    }
+
+    public LocalDate getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(LocalDate endDate) {
+        this.endDate = endDate;
     }
 
     public Long getImageId() {
