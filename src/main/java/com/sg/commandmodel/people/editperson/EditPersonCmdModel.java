@@ -10,8 +10,8 @@ public class EditPersonCmdModel {
     private String type;
     private Long[] orgIds;
     private Long[] powerIds;
-    private LocalDate startDate;
-    private LocalDate endDate;
+    private LocalDate[] startDate;
+    private LocalDate[] endDate;
     private Long imageId;
 
     public String getName() {
@@ -54,19 +54,19 @@ public class EditPersonCmdModel {
         this.powerIds = powerIds;
     }
 
-    public LocalDate getStartDate() {
+    public LocalDate[] getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(LocalDate startDate) {
+    public void setStartDate(LocalDate[] startDate) {
         this.startDate = startDate;
     }
 
-    public LocalDate getEndDate() {
+    public LocalDate[] getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(LocalDate endDate) {
+    public void setEndDate(LocalDate[] endDate) {
         this.endDate = endDate;
     }
 
