@@ -1,5 +1,7 @@
 package com.sg.service;
 
+import com.sg.dto.Organization;
+import com.sg.dto.Person;
 import com.sg.dto.PersonOrganization;
 
 import java.util.List;
@@ -15,4 +17,8 @@ public interface PersonOrganizationService {
     void delete(PersonOrganization personOrganization);
 
     List<PersonOrganization> retrieveAllPersonOrganization(int limit, int offset);
+
+    List<PersonOrganization> retrieveAllPersonOrganizationByPerson(Person person, int limit, int offset);
+
+    List<PersonOrganization> retrieveAllPersonOrganizationByOrg(Organization organization, int limit, int offset);
 }
