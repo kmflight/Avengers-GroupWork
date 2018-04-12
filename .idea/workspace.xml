@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb39fe3b-e8bc-428a-81ab-ccb74ebcdb1e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/organization/orgprofile/OrgProfileViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/organization/orgprofile/OrgProfileViewModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -232,7 +231,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="2902" />
@@ -518,15 +517,16 @@
       <workItem from="1523381918223" duration="9686000" />
       <workItem from="1523447982136" duration="8404000" />
       <workItem from="1523485565522" duration="36000" />
-      <workItem from="1523494354828" duration="88000" />
+      <workItem from="1523494354828" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29771000" />
+    <option name="totallyTimeSpent" value="29835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
