@@ -9,7 +9,6 @@ public class EditPersonViewModel {
     private Long id;
     private List<OrgViewModel> organizations;
     private List<PowerViewModel> powers;
-    private List<PersonOrgViewModel> personOrgs;
 
     private EditPersonCmdModel editCommandModel;
 
@@ -30,14 +29,6 @@ public class EditPersonViewModel {
 
     public void setPowers(List<PowerViewModel> powers) {
         this.powers = powers;
-    }
-
-    public List<PersonOrgViewModel> getPersonOrgs() {
-        return personOrgs;
-    }
-
-    public void setPersonOrgs(List<PersonOrgViewModel> personOrgs) {
-        this.personOrgs = personOrgs;
     }
 
     public EditPersonCmdModel getEditCommandModel() {

@@ -8,7 +8,6 @@ public class CreatePersonCmdModel {
     private String description;
     private String type;
     private Long[] orgIds;
-    private Long[] powerIds;
     private Long[] personOrgIds;
     private Long imageId;
 
@@ -44,13 +43,6 @@ public class CreatePersonCmdModel {
         this.orgIds = orgIds;
     }
 
-    public Long[] getPowerIds() {
-        return powerIds;
-    }
-
-    public void setPowerIds(Long[] powerIds) {
-        this.powerIds = powerIds;
-    }
 
     public Long[] getPersonOrgIds() {
         return personOrgIds;
