@@ -8,6 +8,7 @@ public class EditSightingCmdModel {
     private Long[] personIds;
     private Long locationId;
     private LocalDate date;
+    private String description;
 
     public Long getId() {
         return id;
@@ -39,5 +40,13 @@ public class EditSightingCmdModel {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

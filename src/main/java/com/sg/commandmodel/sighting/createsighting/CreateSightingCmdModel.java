@@ -8,6 +8,7 @@ public class CreateSightingCmdModel {
     private Long[] personIds;
     private Long locationId;
     private LocalDate date;
+    private String description;
 
     public Long[] getPersonIds() {
         return personIds;
@@ -31,5 +32,13 @@ public class CreateSightingCmdModel {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
