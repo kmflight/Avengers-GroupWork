@@ -8,7 +8,7 @@ public class EditPersonCmdModel {
     private String description;
     private String type;
     private Long[] orgIds;
-    private Long[] personOrgIds;
+    private Long[] powerIds;
     private Long imageId;
 
     public String getName() {
@@ -43,13 +43,12 @@ public class EditPersonCmdModel {
         this.orgIds = orgIds;
     }
 
-
-    public Long[] getPersonOrgIds() {
-        return personOrgIds;
+    public Long[] getPowerIds() {
+        return powerIds;
     }
 
-    public void setPersonOrgIds(Long[] personOrgIds) {
-        this.personOrgIds = personOrgIds;
+    public void setPowerIds(Long[] powerIds) {
+        this.powerIds = powerIds;
     }
 
     public Long getImageId() {

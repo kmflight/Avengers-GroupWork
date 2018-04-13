@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb39fe3b-e8bc-428a-81ab-ccb74ebcdb1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/dto/PersonOrganization.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/dto/PersonOrganization.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/EditPersonViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/EditPersonViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/PersonOrgViewModel.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="OrganizationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/OrganizationService.java">
+      <file leaf-file-name="CreatePersonCmdModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="725">
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +36,20 @@
             <state relative-caret-position="400">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="114" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditPersonCmdModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,18 +74,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocationDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/dao/LocationDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/service/LocationService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -188,10 +192,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dao/PersonSightingDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/service/PersonSightingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/PersonOrgViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/EditPersonViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sg/dto/PersonOrganization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" />
       </list>
     </option>
   </component>
@@ -574,15 +578,16 @@
       <workItem from="1523558540503" duration="903000" />
       <workItem from="1523569096718" duration="1067000" />
       <workItem from="1523574438181" duration="1477000" />
-      <workItem from="1523618263429" duration="5335000" />
+      <workItem from="1523618263429" duration="5629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38809000" />
+    <option name="totallyTimeSpent" value="39103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3829" y="-11" width="2902" height="1762" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -592,13 +597,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23203126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23194444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21575984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25138888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25138888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -855,32 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/viewmodel/people/editperson/EditPersonViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1022,6 +1001,30 @@
         <state relative-caret-position="100">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/createperson/CreatePersonCmdModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
