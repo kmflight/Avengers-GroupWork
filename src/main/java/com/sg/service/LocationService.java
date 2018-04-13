@@ -15,8 +15,8 @@ public interface LocationService {
 
     void delete(Location location);
 
-    List<Location> retrieveAllLocations(int limit, int offset);
+    List<Location> retrieveAllLocations(Integer limit, Integer offset);
 
-    List<Location> retrieveAllLocationsByPerson(Person person, int limit, int offset);
+    List<Location> retrieveAllLocationsByPerson(Person person, Integer limit, Integer offset);
 
 }

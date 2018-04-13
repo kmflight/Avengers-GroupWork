@@ -7,7 +7,7 @@ import com.sg.viewmodel.power.createlistpower.CreateListPowerViewModel;
 public interface CreateListPowerWebService {
 
 
-    public CreateListPowerViewModel getCreateListPowerViewModel(int limit, int offset, int pageNumbers);
+    public CreateListPowerViewModel getCreateListPowerViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Power saveCreatePowerCmdModel(CreatePowerCmdModel commandModel);
 }

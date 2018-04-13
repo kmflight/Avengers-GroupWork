@@ -16,9 +16,9 @@ public interface PersonOrganizationService {
 
     void delete(PersonOrganization personOrganization);
 
-    List<PersonOrganization> retrieveAllPersonOrganization(int limit, int offset);
+    List<PersonOrganization> retrieveAllPersonOrganization(Integer limit, Integer offset);
 
-    List<PersonOrganization> retrieveAllPersonOrganizationByPerson(Person person, int limit, int offset);
+    List<PersonOrganization> retrieveAllPersonOrganizationByPerson(Person person, Integer limit, Integer offset);
 
-    List<PersonOrganization> retrieveAllPersonOrganizationByOrg(Organization organization, int limit, int offset);
+    List<PersonOrganization> retrieveAllPersonOrganizationByOrg(Organization organization, Integer limit, Integer offset);
 }

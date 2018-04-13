@@ -7,7 +7,7 @@ import com.sg.viewmodel.organization.createlistorg.CreateListOrgViewModel;
 public interface CreateListOrgWebService {
 
 
-    public CreateListOrgViewModel getCreateListOrgViewModel(int limit, int offset, int pageNumbers);
+    public CreateListOrgViewModel getCreateListOrgViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Organization saveCreateOrgCmdModel(CreateOrgCmdModel commandModel);
 

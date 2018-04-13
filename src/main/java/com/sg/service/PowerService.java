@@ -15,7 +15,7 @@ public interface PowerService {
 
     void delete(Power power);
 
-    List<Power> retrieveAllPowers(int limit, int offset);
+    List<Power> retrieveAllPowers(Integer limit, Integer offset);
 
-    List<Power> retrieveAllPowersByPerson(Person person, int limit, int offset);
+    List<Power> retrieveAllPowersByPerson(Person person, Integer limit, Integer offset);
 }

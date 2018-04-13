@@ -7,7 +7,7 @@ import com.sg.viewmodel.people.createlistperson.CreateListPersonViewModel;
 public interface CreateListPersonWebService {
 
 
-    public CreateListPersonViewModel getCreateListPersonViewModel(int limit, int offset, int pageNumbers);
+    public CreateListPersonViewModel getCreateListPersonViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Person saveCreatePersonCmdModel(CreatePersonCmdModel commandModel);
 }

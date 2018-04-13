@@ -17,11 +17,11 @@ public interface SightingService {
 
     void delete(Sighting sighting);
 
-    List<Sighting> retrieveAllSightings(int limit, int offset);
+    List<Sighting> retrieveAllSightings(Integer limit, Integer offset);
 
-    List<Sighting> retrieveAllSightingsByPerson(Person person, int limit, int offset);
+    List<Sighting> retrieveAllSightingsByPerson(Person person, Integer limit, Integer offset);
 
-    List<Sighting> retrieveAllSightingsByLocation(Location location, int limit, int offset);
+    List<Sighting> retrieveAllSightingsByLocation(Location location, Integer limit, Integer offset);
 
-    List<Sighting> retrieveAllSightingsByDate(LocalDate date, int limit, int offset);
+    List<Sighting> retrieveAllSightingsByDate(LocalDate date, Integer limit, Integer offset);
 }

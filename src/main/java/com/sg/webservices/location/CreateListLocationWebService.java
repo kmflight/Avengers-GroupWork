@@ -10,7 +10,7 @@ import java.util.List;
 public interface CreateListLocationWebService {
 
 
-    public CreateListLocationViewModel getCreateListLocationViewModel(int limit, int offset, int pageNumbers);
+    public CreateListLocationViewModel getCreateListLocationViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Location saveCreateLocationCmdModel(CreateLocationCmdModel commandModel);
 }

@@ -7,7 +7,7 @@ import com.sg.viewmodel.sighting.createlistsighting.CreateListSightingViewModel;
 public interface CreateListSightingWebService {
 
 
-    public CreateListSightingViewModel getCreateListSightingViewModel(int limit, int offset, int pageNumbers);
+    public CreateListSightingViewModel getCreateListSightingViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Sighting saveCreateSightingCmdModel(CreateSightingCmdModel commandModel);
 }

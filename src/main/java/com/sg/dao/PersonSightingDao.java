@@ -16,9 +16,9 @@ public interface PersonSightingDao {
 
     void delete(PersonSighting personSighting);
 
-    List<PersonSighting> retrieveAllPersonSightings(int limit, int offset);
+    List<PersonSighting> retrieveAllPersonSightings(Integer limit, Integer offset);
 
-    List<PersonSighting> retrieveAllPersonSightingsByPerson(Person person, int limit, int offset);
+    List<PersonSighting> retrieveAllPersonSightingsByPerson(Person person, Integer limit, Integer offset);
 
-    List<PersonSighting> retrieveAllPersonSightingsBySighting(Sighting sighting, int limit, int offset);
+    List<PersonSighting> retrieveAllPersonSightingsBySighting(Sighting sighting, Integer limit, Integer offset);
 }

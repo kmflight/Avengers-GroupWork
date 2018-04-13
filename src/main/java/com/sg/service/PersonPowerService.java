@@ -16,10 +16,10 @@ public interface PersonPowerService {
 
     void delete(PersonPower personPower);
 
-    List<PersonPower> retrieveAllPersonPowers(int limit, int offset);
+    List<PersonPower> retrieveAllPersonPowers(Integer limit, Integer offset);
 
-    List<PersonPower> retrieveAllPersonPowerByPerson(Person person, int limit, int offset);
+    List<PersonPower> retrieveAllPersonPowerByPerson(Person person, Integer limit, Integer offset);
 
-    List<PersonPower> retrieveAllPersonPowerByPower(Power power, int limit, int offset);
+    List<PersonPower> retrieveAllPersonPowerByPower(Power power, Integer limit, Integer offset);
 
 }
