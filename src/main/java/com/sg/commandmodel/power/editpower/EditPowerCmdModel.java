@@ -1,8 +1,13 @@
 package com.sg.commandmodel.power.editpower;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class EditPowerCmdModel {
 
     private Long id;
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 50, message = "No more than 50 characters allowed")
     private String name;
 
 

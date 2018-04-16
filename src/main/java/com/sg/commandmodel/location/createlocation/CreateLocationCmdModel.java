@@ -1,15 +1,47 @@
 package com.sg.commandmodel.location.createlocation;
 
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
 public class CreateLocationCmdModel {
 
+    @NotEmpty(message = "Field cannot be empty.")
+    @Size(min = -90, max = 90, message = "Enter a number between -90 and 90")
+    @Length(max = 9, message = "No more than 9 digits allowed")
     private Double latitude;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Size(min = -180, max = 180, message = "Enter a number between -180 and 180")
+    @Length(max = 10, message = "No more than 10 digits allowed")
     private Double longitude;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 50, message = "No more than 50 characters allowed")
     private String name;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 100, message = "No more than 100 characters allowed")
     private String description;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 100, message = "No more than 100 characters allowed")
     private String street;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 100, message = "No more than 100 characters allowed")
     private String city;
+
+    @Length(max = 10, message = "No more than 10 characters allowed")
     private String state;
+    @Length(max = 10, message = "No more than 10 characters allowed")
     private String zip;
+    @Length(max = 25, message = "No more than 25 characters allowed")
     private String country;
 
 

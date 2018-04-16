@@ -1,12 +1,22 @@
 package com.sg.commandmodel.people.createperson;
 
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
 
 public class CreatePersonCmdModel {
 
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 45, message = "No more than 45 characters allowed")
     private String name;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 255, message = "No more than 255 characters allowed")
     private String description;
+
+    @NotEmpty(message = "Please choose a type.")
     private String type;
+
     private Long[] orgIds;
     private Long[] powerIds;
     private Long imageId;

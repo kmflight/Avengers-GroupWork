@@ -1,9 +1,19 @@
 package com.sg.commandmodel.organization.createorg;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class CreateOrgCmdModel {
 
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 50, message = "No more than 50 characters allowed")
     private String name;
+
+    @NotEmpty(message = "Please select a location")
     private Long locationId;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 255, message = "No more than 255 characters allowed")
     private String description;
 
     public String getName() {

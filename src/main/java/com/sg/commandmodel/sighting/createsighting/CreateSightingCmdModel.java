@@ -1,13 +1,25 @@
 package com.sg.commandmodel.sighting.createsighting;
 
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.time.LocalDate;
 
 public class CreateSightingCmdModel {
 
 
+    @NotEmpty(message = "Please choose a person")
     private Long[] personIds;
+
+    @NotEmpty(message = "Please choose a location")
     private Long locationId;
+
+    @DateTimeFormat(pattern="yyyy-MM-dd")
     private LocalDate date;
+
+    @NotEmpty(message = "Field cannot be empty.")
+    @Length(max = 255, message = "No more than 255 characters allowed")
     private String description;
 
     public Long[] getPersonIds() {
