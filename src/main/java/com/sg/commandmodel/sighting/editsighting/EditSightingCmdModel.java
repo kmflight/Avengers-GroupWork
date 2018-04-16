@@ -4,6 +4,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 public class EditSightingCmdModel {
@@ -12,7 +13,7 @@ public class EditSightingCmdModel {
     @NotEmpty(message = "Please choose a person")
     private Long[] personIds;
 
-    @NotEmpty(message = "Please choose a location")
+    @NotNull(message = "Please choose a location")
     private Long locationId;
 
     @DateTimeFormat(pattern="yyyy-MM-dd")

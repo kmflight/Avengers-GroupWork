@@ -3,6 +3,8 @@ package com.sg.commandmodel.organization.editorg;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.validation.constraints.NotNull;
+
 public class EditOrgCmdModel {
 
     private Long id;
@@ -10,7 +12,7 @@ public class EditOrgCmdModel {
     @Length(max = 50, message = "No more than 50 characters allowed")
     private String name;
 
-    @NotEmpty(message = "Please select a location")
+    @NotNull(message = "Please select a location")
     private Long locationId;
 
     @NotEmpty(message = "Field cannot be empty.")
