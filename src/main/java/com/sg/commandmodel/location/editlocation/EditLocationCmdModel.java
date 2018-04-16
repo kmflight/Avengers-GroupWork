@@ -8,14 +8,10 @@ import javax.validation.constraints.Size;
 public class EditLocationCmdModel {
 
     private Long id;
-    @NotEmpty(message = "Field cannot be empty.")
-    @Size(min = -90, max = 90, message = "Enter a number between -90 and 90")
-    @Length(max = 9, message = "No more than 9 digits allowed")
+
     private Double latitude;
 
-    @NotEmpty(message = "Field cannot be empty.")
-    @Size(min = -180, max = 180, message = "Enter a number between -180 and 180")
-    @Length(max = 10, message = "No more than 10 digits allowed")
+
     private Double longitude;
 
     @NotEmpty(message = "Field cannot be empty.")
