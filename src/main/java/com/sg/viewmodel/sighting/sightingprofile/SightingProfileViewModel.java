@@ -11,6 +11,7 @@ public class SightingProfileViewModel {
     private Long locationId;
     private String locationName;
     private LocalDate date;
+    private String description;
 
     public Long getId() {
         return id;
@@ -50,5 +51,13 @@ public class SightingProfileViewModel {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
