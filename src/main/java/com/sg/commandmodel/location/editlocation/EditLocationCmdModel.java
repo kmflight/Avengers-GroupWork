@@ -3,14 +3,12 @@ package com.sg.commandmodel.location.editlocation;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
-import javax.validation.constraints.Size;
 
 public class EditLocationCmdModel {
 
     private Long id;
 
     private Double latitude;
-
 
     private Double longitude;
 

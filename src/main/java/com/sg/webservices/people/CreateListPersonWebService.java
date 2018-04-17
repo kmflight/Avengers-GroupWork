@@ -10,4 +10,6 @@ public interface CreateListPersonWebService {
     public CreateListPersonViewModel getCreateListPersonViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Person saveCreatePersonCmdModel(CreatePersonCmdModel commandModel);
+
+    public void deletePersonCmdModel(Long id);
 }

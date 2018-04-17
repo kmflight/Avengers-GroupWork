@@ -16,6 +16,7 @@ public class CreateSightingCmdModel {
     @NotNull(message = "Please choose a location")
     private Long locationId;
 
+    @NotEmpty(message = "Please enter a date.")
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private LocalDate date;
 

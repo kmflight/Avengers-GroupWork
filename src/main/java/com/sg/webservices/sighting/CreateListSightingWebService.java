@@ -10,4 +10,6 @@ public interface CreateListSightingWebService {
     public CreateListSightingViewModel getCreateListSightingViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Sighting saveCreateSightingCmdModel(CreateSightingCmdModel commandModel);
+
+    public void deleteSightingCmdModel(Long id);
 }

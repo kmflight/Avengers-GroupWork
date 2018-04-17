@@ -10,4 +10,6 @@ public interface CreateListPowerWebService {
     public CreateListPowerViewModel getCreateListPowerViewModel(Integer limit, Integer offset, Integer pageNumbers);
 
     public Power saveCreatePowerCmdModel(CreatePowerCmdModel commandModel);
+
+    public void deletePowerCmdModel(Long id);
 }

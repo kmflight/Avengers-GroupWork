@@ -4,10 +4,7 @@ package com.sg.commandmodel.location.createlocation;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
-import javax.validation.constraints.*;
-
 public class CreateLocationCmdModel {
-
 
     private Double latitude;
 

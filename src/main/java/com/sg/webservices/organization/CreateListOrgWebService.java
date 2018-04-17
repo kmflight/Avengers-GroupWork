@@ -11,4 +11,6 @@ public interface CreateListOrgWebService {
 
     public Organization saveCreateOrgCmdModel(CreateOrgCmdModel commandModel);
 
+    public void deleteOrgCmdModel(Long id);
+
 }
