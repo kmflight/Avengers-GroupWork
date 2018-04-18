@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb39fe3b-e8bc-428a-81ab-ccb74ebcdb1e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/location/editlocation/EditLocationCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/location/editlocation/EditLocationCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/organization/editorg/EditOrgCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/organization/editorg/EditOrgCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/people/editperson/EditPersonCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/power/editpower/EditPowerCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/power/editpower/EditPowerCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/sighting/createsighting/CreateSightingCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/sighting/createsighting/CreateSightingCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/sighting/editsighting/EditSightingCmdModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/commandmodel/sighting/editsighting/EditSightingCmdModel.java" />
-      <change beforePath="$PROJECT_DIR$/target/SuperSightings-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/SuperSightings-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/sighting/createsighting/CreateSightingCmdModel.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/commandmodel/sighting/createsighting/CreateSightingCmdModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservices/location/CreateListLocationWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservices/location/CreateListLocationWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservices/organization/CreateListOrgWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservices/organization/CreateListOrgWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservices/people/CreateListPersonWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservices/people/CreateListPersonWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservices/power/CreateListPowerWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservices/power/CreateListPowerWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sg/webservices/sighting/CreateListSightingWebService.class" afterPath="$PROJECT_DIR$/target/classes/com/sg/webservices/sighting/CreateListSightingWebService.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-    </list>
+    <list default="true" id="cb39fe3b-e8bc-428a-81ab-ccb74ebcdb1e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -735,12 +719,12 @@
       <workItem from="1523884644054" duration="10970000" />
       <workItem from="1523970749126" duration="5652000" />
       <workItem from="1523977775724" duration="5763000" />
-      <workItem from="1524049933513" duration="1896000" />
+      <workItem from="1524049933513" duration="2492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68410000" />
+    <option name="totallyTimeSpent" value="69006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1402" extended-state="6" />
