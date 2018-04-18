@@ -4,8 +4,11 @@ package com.sg.commandmodel.people.editperson;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.validation.constraints.NotNull;
+
 public class EditPersonCmdModel {
 
+    @NotNull(message = "Does not contain id")
     private Long id;
     @NotEmpty(message = "Field cannot be empty.")
     @Length(max = 45, message = "No more than 45 characters allowed")

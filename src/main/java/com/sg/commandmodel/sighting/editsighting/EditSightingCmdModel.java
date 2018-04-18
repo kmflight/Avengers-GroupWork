@@ -9,6 +9,7 @@ import java.time.LocalDate;
 
 public class EditSightingCmdModel {
 
+    @NotNull(message = "Does not contain id")
     private Long id;
     @NotEmpty(message = "Please choose a person")
     private Long[] personIds;

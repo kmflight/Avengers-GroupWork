@@ -3,9 +3,12 @@ package com.sg.commandmodel.location.editlocation;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.validation.constraints.NotNull;
+
 
 public class EditLocationCmdModel {
 
+    @NotNull(message = "Does not contain id")
     private Long id;
 
     private Double latitude;
