@@ -1,6 +1,7 @@
 com\sg\webservices\location\EditLocationWebService.class
 com\sg\viewmodel\sighting\sightingprofile\SightingProfileViewModel.class
 com\sg\webservices\power\CreateListPowerWebService.class
+com\sg\viewmodel\organization\orgprofile\PersonViewModel.class
 com\sg\viewmodel\home\SightingViewModel.class
 com\sg\viewmodel\people\editperson\OrgViewModel.class
 com\sg\webservices\people\PersonProfileWebService.class

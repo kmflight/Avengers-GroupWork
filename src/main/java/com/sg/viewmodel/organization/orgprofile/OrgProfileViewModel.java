@@ -1,5 +1,7 @@
 package com.sg.viewmodel.organization.orgprofile;
 
+import java.util.List;
+
 public class OrgProfileViewModel {
 
     private Long id;
@@ -7,6 +9,7 @@ public class OrgProfileViewModel {
     private Long locationId;
     private String locationName;
     private String description;
+    private List<PersonViewModel> persons;
 
     public Long getId() {
         return id;
@@ -46,5 +49,13 @@ public class OrgProfileViewModel {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public List<PersonViewModel> getPersons() {
+        return persons;
+    }
+
+    public void setPersons(List<PersonViewModel> persons) {
+        this.persons = persons;
     }
 }

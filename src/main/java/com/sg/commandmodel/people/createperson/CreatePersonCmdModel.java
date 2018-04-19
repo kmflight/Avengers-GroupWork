@@ -4,6 +4,8 @@ package com.sg.commandmodel.people.createperson;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.validation.constraints.NotNull;
+
 public class CreatePersonCmdModel {
 
     @NotEmpty(message = "Field cannot be empty.")
